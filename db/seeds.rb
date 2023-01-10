@@ -27,7 +27,7 @@ Concept.create([
     },
     {
       "name": "Otros gastos",
-      "description": "Otros gastos,"
+      "description": "Otros gastos"
     },
     {
       "name": "Insumos",
@@ -76,6 +76,10 @@ Concept.create([
     {
       "name": "Regularización",
       "description": "Ingresos y Gastos por concepto de Regularización"
+    },
+    {
+      "name": "Insumos",
+      "description": "Amargos, alcohol, algodón etc."
     }
   ])
 
