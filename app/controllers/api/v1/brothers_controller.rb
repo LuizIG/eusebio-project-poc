@@ -3,7 +3,7 @@ module Api
         class BrothersController < ApplicationController
             def index
                 brothers = Brother.all()
-                render json: {status: 0, message: '', data: brothers}, status: :ok
+                render json: brothers.to_json(:include => :income)
             end
         end
     end

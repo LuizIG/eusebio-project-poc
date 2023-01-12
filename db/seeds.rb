@@ -27,7 +27,7 @@ Concept.create([
     },
     {
       "name": "Otros gastos",
-      "description": "Otros gastos"
+      "description": "Otros gastos,"
     },
     {
       "name": "Insumos",
@@ -79,12 +79,22 @@ Concept.create([
     },
     {
       "name": "Insumos",
-      "description": "Amargos, alcohol, algodón etc."
+      "description": "Ingresos y Gastos por concepto de Regularización"
     }
   ])
 
 
 Brother.create([
+  {
+    "p_lastname": "TESORERO",
+    "m_lastname": "TESORERO",
+    "name": "TESORERO",
+    "degree": "MAESTRO",
+    "phone": 5555555555,
+    "email": "",
+    "birthday": "03/9/1992",
+    "status": 1
+  },
   {
     "p_lastname": "ARREDONDO",
     "m_lastname": "ALVAREZ",
@@ -484,5 +494,1700 @@ Brother.create([
     "email": "joaquindesideriolopez@hotmail.com",
     "birthday": "30/8/1998",
     "status": 1
+  }
+])
+
+Income.create([
+  {
+    "date": "2022-01-20",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-21",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-27",
+    "account_id": 2,
+    "brother_id": 23,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-27",
+    "account_id": 2,
+    "brother_id": 24,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-27",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-29",
+    "account_id": 1,
+    "brother_id": 19,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-29",
+    "account_id": 1,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-29",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-01-30",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-02",
+    "account_id": 1,
+    "brother_id": 2,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-03",
+    "account_id": 1,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-03",
+    "account_id": 1,
+    "brother_id": 7,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-03",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-08",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-10",
+    "account_id": 2,
+    "brother_id": 31,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-10",
+    "account_id": 1,
+    "brother_id": 7,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-15",
+    "account_id": 1,
+    "brother_id": 2,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-17",
+    "account_id": 1,
+    "brother_id": 15,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-17",
+    "account_id": 1,
+    "brother_id": 5,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-24",
+    "account_id": 1,
+    "brother_id": 26,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-25",
+    "account_id": 1,
+    "brother_id": 18,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-25",
+    "account_id": 1,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-25",
+    "account_id": 1,
+    "brother_id": 20,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-25",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-26",
+    "account_id": 1,
+    "brother_id": 20,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-02-26",
+    "account_id": 1,
+    "brother_id": 25,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-07",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-09",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-09",
+    "account_id": 1,
+    "brother_id": 14,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-17",
+    "account_id": 1,
+    "brother_id": 3,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-17",
+    "account_id": 1,
+    "brother_id": 16,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-17",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-21",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-24",
+    "account_id": 2,
+    "brother_id": 23,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-24",
+    "account_id": 2,
+    "brother_id": 24,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-26",
+    "account_id": 2,
+    "brother_id": 31,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-30",
+    "account_id": 1,
+    "brother_id": 26,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-03-31",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-07",
+    "account_id": 1,
+    "brother_id": 35,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-08",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-08",
+    "account_id": 1,
+    "brother_id": 11,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-08",
+    "account_id": 1,
+    "brother_id": 7,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-18",
+    "account_id": 1,
+    "brother_id": 18,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-21",
+    "account_id": 2,
+    "brother_id": 5,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-21",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-22",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-23",
+    "account_id": 1,
+    "brother_id": 33,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-27",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-29",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-04-29",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-05",
+    "account_id": 1,
+    "brother_id": 22,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-05",
+    "account_id": 2,
+    "brother_id": 31,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-10",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-11",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-12",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-12",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-12",
+    "account_id": 1,
+    "brother_id": 35,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-12",
+    "account_id": 1,
+    "brother_id": 18,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-12",
+    "account_id": 1,
+    "brother_id": 7,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-16",
+    "account_id": 1,
+    "brother_id": 26,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-27",
+    "account_id": 1,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-05-30",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-02",
+    "account_id": 2,
+    "brother_id": 23,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-03",
+    "account_id": 1,
+    "brother_id": 25,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-03",
+    "account_id": 1,
+    "brother_id": 22,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-14",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-14",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-15",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-16",
+    "account_id": 2,
+    "brother_id": 5,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-19",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-23",
+    "account_id": 1,
+    "brother_id": 22,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-29",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-30",
+    "account_id": 2,
+    "brother_id": 23,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-06-30",
+    "account_id": 2,
+    "brother_id": 31,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-04",
+    "account_id": 1,
+    "brother_id": 27,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-05",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-07",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-07",
+    "account_id": 1,
+    "brother_id": 35,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-07",
+    "account_id": 1,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-08",
+    "account_id": 1,
+    "brother_id": 6,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-12",
+    "account_id": 1,
+    "brother_id": 2,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-14",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-15",
+    "account_id": 1,
+    "brother_id": 26,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-15",
+    "account_id": 1,
+    "brother_id": 14,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-18",
+    "account_id": 1,
+    "brother_id": 16,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-21",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-28",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-07-29",
+    "account_id": 1,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-01",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-05",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-10",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-10",
+    "account_id": 1,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-10",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-11",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-12",
+    "account_id": 1,
+    "brother_id": 25,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-12",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-16",
+    "account_id": 1,
+    "brother_id": 2,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-18",
+    "account_id": 2,
+    "brother_id": 5,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-18",
+    "account_id": 2,
+    "brother_id": 19,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-18",
+    "account_id": 2,
+    "brother_id": 24,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-19",
+    "account_id": 1,
+    "brother_id": 13,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-21",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-08-30",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-01",
+    "account_id": 1,
+    "brother_id": 22,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-01",
+    "account_id": 2,
+    "brother_id": 5,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-07",
+    "account_id": 1,
+    "brother_id": 15,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-08",
+    "account_id": 1,
+    "brother_id": 7,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-08",
+    "account_id": 1,
+    "brother_id": 19,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-08",
+    "account_id": 2,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-08",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-12",
+    "account_id": 1,
+    "brother_id": 26,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-15",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-15",
+    "account_id": 1,
+    "brother_id": 2,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-21",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-24",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-24",
+    "account_id": 1,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-26",
+    "account_id": 1,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-26",
+    "account_id": 2,
+    "brother_id": 23,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-27",
+    "account_id": 1,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-27",
+    "account_id": 1,
+    "brother_id": 3,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-28",
+    "account_id": 1,
+    "brother_id": 18,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-28",
+    "account_id": 1,
+    "brother_id": 35,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-28",
+    "account_id": 1,
+    "brother_id": 30,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-29",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-29",
+    "account_id": 1,
+    "brother_id": 36,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-29",
+    "account_id": 2,
+    "brother_id": 23,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-09-30",
+    "account_id": 1,
+    "brother_id": 27,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-06",
+    "account_id": 2,
+    "brother_id": 37,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-06",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-07",
+    "account_id": 2,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-13",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-13",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-13",
+    "account_id": 2,
+    "brother_id": 39,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-13",
+    "account_id": 2,
+    "brother_id": 36,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-17",
+    "account_id": 1,
+    "brother_id": 22,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-20",
+    "account_id": 1,
+    "brother_id": 19,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-22",
+    "account_id": 1,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-25",
+    "account_id": 1,
+    "brother_id": 25,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-25",
+    "account_id": 1,
+    "brother_id": 37,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-26",
+    "account_id": 1,
+    "brother_id": 36,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-27",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-28",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-28",
+    "account_id": 2,
+    "brother_id": 39,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-30",
+    "account_id": 1,
+    "brother_id": 9,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-10-31",
+    "account_id": 1,
+    "brother_id": 36,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-01",
+    "account_id": 2,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-03",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-03",
+    "account_id": 1,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-03",
+    "account_id": 2,
+    "brother_id": 39,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-03",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-03",
+    "account_id": 2,
+    "brother_id": 38,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-03",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-06",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-06",
+    "account_id": 1,
+    "brother_id": 26,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-07",
+    "account_id": 1,
+    "brother_id": 16,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-07",
+    "account_id": 1,
+    "brother_id": 27,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-10",
+    "account_id": 1,
+    "brother_id": 40,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-10",
+    "account_id": 2,
+    "brother_id": 41,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-10",
+    "account_id": 2,
+    "brother_id": 39,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-10",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-11",
+    "account_id": 1,
+    "brother_id": 12,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-14",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-14",
+    "account_id": 1,
+    "brother_id": 17,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-14",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-15",
+    "account_id": 1,
+    "brother_id": 22,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-15",
+    "account_id": 1,
+    "brother_id": 10,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-15",
+    "account_id": 1,
+    "brother_id": 14,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-15",
+    "account_id": 1,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-17",
+    "account_id": 1,
+    "brother_id": 33,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-17",
+    "account_id": 2,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-17",
+    "account_id": 2,
+    "brother_id": 27,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-17",
+    "account_id": 2,
+    "brother_id": 5,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-17",
+    "account_id": 2,
+    "brother_id": 31,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-17",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-21",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-24",
+    "account_id": 2,
+    "brother_id": 28,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-26",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-11-29",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-01",
+    "account_id": 1,
+    "brother_id": 24,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-02",
+    "account_id": 1,
+    "brother_id": 9,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-05",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-05",
+    "account_id": 1,
+    "brother_id": 21,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-06",
+    "account_id": 1,
+    "brother_id": 19,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-07",
+    "account_id": 1,
+    "brother_id": 16,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-14",
+    "account_id": 1,
+    "brother_id": 34,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-15",
+    "account_id": 1,
+    "brother_id": 36,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2022-12-20",
+    "account_id": 1,
+    "brother_id": 29,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
+  },
+  {
+    "date": "2023-01-08",
+    "account_id": 1,
+    "brother_id": 1,
+    "signature": "",
+    "comments": "",
+    "created_at": "2023-01-12",
+    "updated_at": "2023-01-12"
   }
 ])

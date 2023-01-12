@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :accounts
       resources :concepts
       resources :brothers
+      resources :incomes
     end
   end
 end
