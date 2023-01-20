@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_01_12_060820) do
+ActiveRecord::Schema.define(version: 2023_01_12_205207) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,6 +39,17 @@ ActiveRecord::Schema.define(version: 2023_01_12_060820) do
     t.string "description", limit: 60
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "income_items", force: :cascade do |t|
+    t.bigint "income_id"
+    t.float "amount"
+    t.bigint "concept_id"
+    t.text "comments"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["concept_id"], name: "index_income_items_on_concept_id"
+    t.index ["income_id"], name: "index_income_items_on_income_id"
   end
 
   create_table "incomes", force: :cascade do |t|

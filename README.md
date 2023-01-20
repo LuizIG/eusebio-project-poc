@@ -1,24 +1,12 @@
-# README
+Docker
+//Crear los contenedores
+docker compose up -d 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+//Crear la base de datos
+docker compose run api rake db:create
 
-Things you may want to cover:
+//Ejecutar las migraciones (crea todas las tablas)
+docker compose run api rake db:migrate
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+//Poblar las tablas
+docker compose run api rake db:seed
